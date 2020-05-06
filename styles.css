@@ -9,7 +9,7 @@ h2 {
 }
 :root {
   --main-white: #f0f0f0;
-  --main-red: #be3144;
+  --main-red: #470d15;
   --main-blue: #45567d;
   --main-gray: #303841;
 
@@ -34,17 +34,19 @@ a{
   background: var(--main-red);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
+  height: 15%;
 }
 
 .nav-list {
   display: flex;
   margin-right: 2rem;
+  
 }
  
 
 .nav-list a {
   display: block;
-  font-size: 2.2rem;
+  font-size: 2rem;
   padding: 2rem;
 }
 
@@ -60,7 +62,7 @@ a{
     width: 100%;
     height: 100vh;
     background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-image: linear-gradient(62deg, #114e8b 0%, #181719 100%);
     
   }
   
@@ -68,7 +70,7 @@ a{
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: rebeccapurple
+    color: rgb(22, 9, 34)
   }
 
 
@@ -108,15 +110,18 @@ a{
   }
   
   .project-image {
-    height: calc(100% - 100px);
+    height: calc(110% - 100px);
     width: 100%;
     object-fit: cover;
+    
+    
   }
   
   .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
   }
+
   .contact-section {
     display: flex;
     flex-direction: column;
@@ -125,19 +130,9 @@ a{
     text-align: center;
     width: 100%;
     height: 60vh;
-    padding: 0 2rem;
     background: var(--main-gray);
   }
 
-  .contact-links {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 980px;
-    margin-top: 4rem;
-    
-  }
-  
   .btn {
     display: inline-block;
     padding: 1rem 2rem;
@@ -158,4 +153,12 @@ a{
     padding: 2rem;
     background: var(--main-gray);
     border-top: 4px solid var(--main-red);
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body {
+    background-color: rgb(79, 140, 151);
   }
